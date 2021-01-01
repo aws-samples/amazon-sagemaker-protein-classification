@@ -1,0 +1,10 @@
+tqdm
+requests==2.22.0
+regex
+sentencepiece
+sacremoses
+transformers
+torch-optimizer
+sagemaker==2.19.0
+boto3
+scikit-learn
