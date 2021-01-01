@@ -15,6 +15,11 @@
   - [License](#license)
 
 ## Motivation
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Myoglobin.png"
+     alt="Protein Sequence"
+     style="float: left;"
+     height = 150
+     width = 180/>
 **Proteins** are the key fundamental macromolecules governing in biological bodies. The study of protein localization is important to comprehend the function of protein and has great importance for drug design and other applications. It also plays an important role in characterizing the cellular function of hypothetical and newly discovered proteins [1]. There are several research endeavours that aim to localize whole proteomes by using high-throughput approaches [2–4]. These large datasets provide important information about protein function, and more generally global cellular processes. However, they currently do not achieve 100% coverage of proteomes, and the methodology used can in some cases cause mislocalization of subsets of proteins [5,6]. Therefore, complementary methods are necessary to address these problems. In this notebook, we will leverage Natural Language Processing (NLP) techniques for protein sequence classification. The idea is to interpret protein sequences as sentences and their constituent – amino acids –
 as single words [7]. More specifically we will fine tune Pytorch ProtBert model from Hugging Face library.
 
