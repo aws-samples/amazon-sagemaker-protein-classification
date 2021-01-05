@@ -30,7 +30,7 @@ ProtBert is a pretrained model on protein sequences using a masked language mode
 ---
 ## Notebook Overview
 This example notebook focuses on fine-tuning the Pytorch ProtBert model and deploying it using Amazon SageMaker, which is the most comprehensive and fully managed machine learning service. With SageMaker, data scientists and developers can quickly and easily build and train machine learning models, and then directly deploy them into a production-ready hosted environment. 
-During the training, we will leverage SageMaker distributed data parallel (SDP) feature which extends SageMaker’s training capabilities on deep learning models with near-linear scaling efficiency, achieving fast time-to-train with minimal code changes. We will also be able to observe the progress of the training using Sagmeaker Debugger which can also profile machine learning models, making it much easier to identify and fix training issues caused by hardware resource usage.
+During the training, we will leverage `Amazon SageMaker distributed data parallel (SDP)` feature which extends SageMaker’s training capabilities on deep learning models with near-linear scaling efficiency, achieving fast time-to-train with minimal code changes. We will also be able to observe the progress of the training using Sagmeaker Debugger which can also profile machine learning models, making it much easier to identify and fix training issues caused by hardware resource usage.
 
 _**Note**_: Please select the Kernel as ` Python 3 (Pytorch 1.6 Python 3.6 CPU Optimized)`.
 
