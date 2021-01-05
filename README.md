@@ -73,7 +73,7 @@ SageMaker Studio can only open notebooks listed in the Studio file browser. In t
 - Choose the root folder or the folder you want to clone the repo into.
 - In the left sidebar, choose the Git icon ( <img src='https://docs.aws.amazon.com/sagemaker/latest/dg/images/icons/Git_squid.png'>  ).
 - Choose Clone a Repository.
-- Enter the URI for the repo https://github.com/aws-samples/amazon-sagemaker-visual-transformer.
+- Enter the URI for the repo https://github.com/aws-samples/amazon-sagemaker-protein-classification.git.
 - Choose CLONE.
 - If the repo requires credentials, you are prompted to enter your username and password.
 - Wait for the download to finish. After the repo has been cloned, the File Browser opens to display the cloned repo.
