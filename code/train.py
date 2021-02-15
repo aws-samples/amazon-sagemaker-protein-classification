@@ -31,7 +31,7 @@ logger.setLevel(logging.DEBUG)
 logger.addHandler(logging.StreamHandler(sys.stdout))
 
 MAX_LEN = 512  # this is the max length of the sequence
-PRE_TRAINED_MODEL_NAME = 'Rostlab/prot_bert'
+PRE_TRAINED_MODEL_NAME = 'Rostlab/prot_bert_bfd_localization'
 tokenizer = BertTokenizer.from_pretrained(PRE_TRAINED_MODEL_NAME, do_lower_case=False)
 
 def _get_train_data_loader(batch_size, training_dir):
